@@ -1,0 +1,57 @@
+*{
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/background.jpg);
+    display: flex;
+    justify-content: center;
+}
+.box-container{
+    background-image: url(../img/pokemonlogo.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    width: 700px;
+    display: flex;
+    flex-flow: column;
+    border-radius: 15px;
+    padding: 20px;
+}
+.question{
+    background-color: #FFF;
+    border-radius: 5PX;
+    font-size: 1.2rem;
+    padding: 20PX;
+    color: #000;
+    text-align: center;
+    font-family: sans-serif;
+}
+.option{
+    color: #FFF;
+    background-color: #767676;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+.option:hover{
+    color: #000;
+    background-color: #FFF;
+}
+.indice{
+    display: inline-block;
+    margin: 10px;
+    background-color: #FFF;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.false{
+    background-color: red;
+}
+.true{
+    background-color: rgb(9, 222, 9);
+}
